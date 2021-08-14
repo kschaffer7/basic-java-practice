@@ -6,7 +6,7 @@ package firstThree;
 //        — Passing in “discreet” should print out “dis”
 //        — Passing in “flourish” should print out  “flo”
 //        — Passing in “do” should print out “do”
-
+//        Must use substring() method
 public class solution2 {
     public static void main(String[] args){
         String word = "do";
