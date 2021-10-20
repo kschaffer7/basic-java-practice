@@ -10,9 +10,9 @@ import java.util.Scanner;
 public class yearsToSavingsGoal {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        int mPrincipal = 1; // principal
-        int pRate = 100; // annual rate
-        int kGoal = 8; // goal amount
+        int mPrincipal = scanner.nextInt(); // principal
+        int pRate = scanner.nextInt(); // annual rate
+        int kGoal = scanner.nextInt(); // goal amount
         double currentAmount = mPrincipal;
         int years = 0;
         while (currentAmount <= kGoal && kGoal != mPrincipal) {
