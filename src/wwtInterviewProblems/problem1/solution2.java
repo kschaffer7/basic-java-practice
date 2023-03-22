@@ -11,7 +11,7 @@ public class solution2 {
         String eightPoint = "jx";
         String tenPoint = "qz";
         int wordScore = 0;
-        String[] letters = word.split("");
+        String[] letters = word.toLowerCase().split("");
         for(int j = 0; j < letters.length; j++){
             if(onePoint.contains(letters[j])){
                 wordScore++;
